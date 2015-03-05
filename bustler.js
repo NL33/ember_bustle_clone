@@ -1,0 +1,1 @@
+Bustler = Ember.Application.create();
