@@ -41,3 +41,23 @@
     </a>
 </div>
 
+************
+  <div class ="col-md-2">
+    <br><p><span class = "share" {{action 'showShare'}}>Share</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class = "sing" {{action 'showSing'}}>Sing</span></p>
+  </div>
+</div> 
+
+Bustler.ArticlesController = Ember.Controller.extend({ 
+  actions: {
+    showShare: function() {
+      alert("Dracula is fictional, but was inspired by the 15th-century Romanian general and Wallachian Prince Vlad III the Impaler.")
+    },
+
+    showSing: function() {
+      alert("Dracula is fictional, but was inspired by the 15th-century Romanian general and Wallachian Prince Vlad III the Impaler.")
+    }
+
+   }
+});
+
+
